@@ -1,24 +1,25 @@
 # O'Thiéb — site vitrine
 
-Site statique du restaurant O'Thiéb, prêt à être publié sur GitHub Pages ou tout hébergement statique.
+Site statique du restaurant O'Thiéb, publié avec GitHub Pages.
+
+## Adresse du site
+
+https://aphrikejula-tech.github.io/Othieb-r-/
+
+Le domaine `othieb.fr` était un exemple et n'est pas configuré. Un domaine personnalisé pourra être ajouté ultérieurement si vous en achetez un.
 
 ## Fichiers
 
 - `index.html` : page principale
 - `styles.css` : mise en page responsive et identité visuelle
 - `script.js` : menu mobile, navigation active et animations légères
-- `assets/` : photos et favicon
-- `CNAME` : domaine personnalisé `othieb.fr`
-- `robots.txt` et `sitemap.xml` : bases SEO
+- `assets/` : visuels et favicon
+- `robots.txt` et `sitemap.xml` : référencement du site sur GitHub Pages
 
-## Publication GitHub Pages
+## Publication
 
-1. Envoyer tous les fichiers à la racine du dépôt GitHub.
-2. Ouvrir **Settings > Pages**.
-3. Choisir **Deploy from a branch** puis la branche `main` et le dossier `/ (root)`.
-4. Vérifier ensuite que le domaine personnalisé est bien `othieb.fr`.
-5. Configurer les enregistrements DNS chez le fournisseur du nom de domaine conformément aux valeurs indiquées par GitHub Pages.
+Le dépôt utilise GitHub Pages sur la branche `main`, à la racine (`/ (root)`). Toute mise à jour publiée sur cette branche déclenche un nouveau déploiement.
 
-## À vérifier avant mise en ligne
+## Informations pratiques
 
-Les coordonnées, horaires et tarifs présents dans ce projet reprennent le fichier HTML fourni. Vérifiez-les avant publication si nécessaire.
+L'adresse, le numéro de téléphone et les horaires affichés correspondent aux fiches publiques consultées. Les prix peuvent varier ; appelez le restaurant pour les confirmer.
