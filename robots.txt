@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://othieb.fr/sitemap.xml
+Sitemap: https://aphrikejula-tech.github.io/Othieb-r-/sitemap.xml
