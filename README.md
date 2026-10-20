@@ -26,7 +26,7 @@ L'adresse, le numéro de téléphone et les horaires affichés correspondent aux
 
 ## Parcours de commande
 
-- Romilly-sur-Seine : sur place ou à emporter. Les boutons « Commander » ouvrent `https://othieb.lboost-digitalweb.fr/menu`. Aucun lien « panier » n'est affiché sur cette proposition.
+- Romilly-sur-Seine : sur place ou à emporter. Les boutons « Commander » ouvrent la page `livraison.html` (plateformes de livraison, téléphone pour l'emporter). Aucun lien vers l'ancien site de commande ni vers un panier n'est affiché sur cette proposition.
 - Troyes et son agglomération : à emporter via la carte en ligne, ou livraison via Uber Eats, Deliveroo ou Just Eat. Chaque plateforme vérifie la disponibilité selon l'adresse du client.
 - La page `livraison.html` (style sombre et doré, `livraison.css`) présente les trois plateformes ; les boutons de livraison de l'accueil y renvoient.
 - Le restaurateur a confirmé ces trois plateformes. La proposition conserve le lien direct Uber Eats déjà vérifié ; aucun lien direct Deliveroo ou Just Eat n'a été fourni ou ajouté.
