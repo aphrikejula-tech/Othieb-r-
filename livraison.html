@@ -3,64 +3,90 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#150f0a" />
-  <meta name="description" content="Faites-vous livrer O'Thiéb à Troyes et dans l'agglomération via Uber Eats, Deliveroo ou Just Eat." />
-  <title>Livraison — O'Thiéb</title>
+  <meta name="theme-color" content="#10261f" />
+  <meta name="description" content="Commandez O'Thiéb : à emporter par téléphone, ou livré à Troyes via Uber Eats, Deliveroo ou Just Eat." />
+  <title>Commander — O'Thiéb</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="livraison.css" />
 </head>
 <body>
-  <header class="topbar">
-    <div class="wrap">
-      <a class="logo" href="index.html" aria-label="O'Thiéb, retour à l'accueil">O’<b>THIÉB</b><small>AUX SAVEURS DU PAYS DE LA TERANGA</small></a>
-      <nav class="nav" aria-label="Navigation">
-        <a class="pill" href="index.html">Accueil</a>
-        <a class="pill" href="index.html#carte">La carte</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="O'Thiéb, retour à l'accueil">
+        <span class="brand-mark" aria-hidden="true"><i></i><b>★</b></span>
+        <span class="brand-type"><strong>O’THIÉB</strong><small>RESTAURANT</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="index.html#histoire">Notre histoire</a>
+        <a href="index.html#carte">La carte</a>
+        <a href="index.html#galerie">Galerie</a>
+        <a href="index.html#infos">Infos</a>
       </nav>
+      <div class="nav-actions">
+        <a class="btn btn-gold" href="tel:+33758487440">07 58 48 74 40</a>
+      </div>
     </div>
   </header>
 
   <main>
-    <section class="hero wrap">
-      <div class="kicker">Troyes &amp; agglomération</div>
-      <h1>Faites-vous livrer<br /><em>le goût du Sénégal.</em></h1>
-      <p class="lead">Thieb, mafé, yassa, bissap… O’Thiéb vous est livré via trois plateformes. Choisissez celle que vous utilisez déjà.</p>
+    <section class="order-hero">
+      <div class="container">
+        <span class="section-kicker">Commander</span>
+        <h1>À emporter<br /><em>ou livré chez vous.</em></h1>
+        <p>À Romilly ou à Troyes, appelez-nous pour commander à emporter. À Troyes et dans l’agglomération, faites-vous aussi livrer via la plateforme que vous utilisez déjà.</p>
+      </div>
     </section>
 
-    <section class="wrap">
-      <div class="grid">
-        <article class="card">
-          <span class="tag">Livraison</span>
+    <section class="order-section">
+      <div class="container order-grid">
+        <article class="order-card">
+          <span class="section-kicker">Livraison</span>
           <h2>Uber Eats</h2>
           <p>Commandez O’Thiéb directement depuis la fiche du restaurant.</p>
-          <a class="btn" href="https://www.ubereats.com/fr/store/othieb-romilly-sur-seine/Vv0nzxi2V6ynzSoo9Z025Q" target="_blank" rel="noopener noreferrer">Commander sur Uber Eats ↗</a>
+          <a class="btn btn-gold" href="https://www.ubereats.com/fr/store/othieb-romilly-sur-seine/Vv0nzxi2V6ynzSoo9Z025Q" target="_blank" rel="noopener noreferrer">Commander sur Uber Eats ↗</a>
         </article>
-        <article class="card">
-          <span class="tag">Livraison</span>
+        <article class="order-card">
+          <span class="section-kicker">Livraison</span>
           <h2>Deliveroo</h2>
           <p>Retrouvez O’Thiéb sur l’application Deliveroo selon votre adresse.</p>
           <span class="soon">Lien direct bientôt disponible</span>
         </article>
-        <article class="card">
-          <span class="tag">Livraison</span>
+        <article class="order-card">
+          <span class="section-kicker">Livraison</span>
           <h2>Just Eat</h2>
           <p>Retrouvez O’Thiéb sur Just Eat selon votre adresse.</p>
           <span class="soon">Lien direct bientôt disponible</span>
         </article>
       </div>
 
-      <p class="note"><strong>Bon à savoir :</strong> chaque plateforme confirme la disponibilité de la livraison à votre adresse. Pour une commande à emporter à Romilly ou Troyes, appelez le restaurant.</p>
-
-      <div class="cta-row">
-        <a class="btn" href="tel:+33758487440">Commander à emporter : 07 58 48 74 40</a>
-        <a class="btn btn-ghost" href="index.html#carte">Voir la carte</a>
+      <div class="container">
+        <div class="order-takeaway">
+          <div>
+            <span class="section-kicker">À emporter</span>
+            <h2>Romilly-sur-Seine &amp; Troyes</h2>
+            <p>Appelez le restaurant pour préparer votre commande. Chaque plateforme de livraison confirme la disponibilité à votre adresse.</p>
+          </div>
+          <div class="order-actions">
+            <a class="btn btn-gold btn-lg" href="tel:+33758487440">Appeler le 07 58 48 74 40</a>
+            <a class="btn btn-ghost btn-lg" href="index.html#carte">Voir la carte</a>
+          </div>
+        </div>
       </div>
     </section>
   </main>
 
-  <footer><div class="wrap">© O’Thiéb · 28 rue Carnot, 10100 Romilly-sur-Seine · Livraison sur Troyes</div></footer>
+  <footer class="footer">
+    <div class="container footer-grid">
+      <a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true"><i></i><b>★</b></span><span class="brand-type"><strong>O’THIÉB</strong><small>RESTAURANT</small></span></a>
+      <p>Cuisine sénégalaise à Romilly-sur-Seine et Troyes.<br />28 rue Carnot, 10100 Romilly-sur-Seine.</p>
+      <div class="footer-links"><a href="index.html#carte">La carte</a><a href="index.html#galerie">Galerie</a><a href="index.html#infos">Infos</a><a href="tel:+33758487440">Appeler</a></div>
+      <div class="footer-bottom"><span>© O’Thiéb</span><span>Site vitrine</span></div>
+    </div>
+  </footer>
 </body>
 </html>
